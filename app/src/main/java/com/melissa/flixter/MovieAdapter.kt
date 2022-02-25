@@ -1,7 +1,7 @@
 package com.melissa.flixter
 
 import android.content.Context
-import android.media.Image
+import android.content.res.Configuration
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -38,7 +38,15 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
         fun bind(movie:Movie) {
             tvTitle.text = movie.title
             tvOverview.text = movie.overview
-            Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
+            val resources = context.resources
+            var image = ""
+            val orientation = resources.configuration.orientation
+            if (orientation == Configuration.ORIENTATION_PORTRAIT) {
+                image = movie.posterImageUrl
+            } else if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+                image = movie.backdropImageUrl
+            }
+            Glide.with(context).load(image).into(ivPoster)
         }
     }
 }
