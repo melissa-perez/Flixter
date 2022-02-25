@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cinema_blue">#0D19B6</color>
+    <color name="movie_white">#99AABB</color>
+    <color name="light_teal">#455FDD</color>
+    <color name="rosemary">#b7114a</color>
+    <color name="plum">#62378F</color>
+    <color name="letterbox_gray">#1D232A</color>
 </resources>
