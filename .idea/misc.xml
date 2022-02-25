@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.174" />
+        <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/drawable/movie_load.xml" value="0.174" />
+        <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/drawable/movie_load_screen.xml" value="0.1" />
+        <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/drawable/movie_placeholder_background.xml" value="0.174" />
         <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/layout-land/activity_mail.xml" value="0.1" />
         <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/layout-land/item_movie.xml" value="0.1" />
         <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/layout/item_movie.xml" value="0.264" />
+        <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/mipmap-anydpi-v26/movie_placeholder.xml" value="0.174" />
+        <entry key="..\:/Users/13233/AndroidStudioProjects/Flixter/app/src/main/res/mipmap-anydpi-v26/movie_placeholder_round.xml" value="0.174" />
       </map>
     </option>
   </component>
