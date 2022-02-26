@@ -27,7 +27,7 @@
         android:textStyle="bold"
         android:typeface="serif"
         android:shadowColor="@color/light_teal"
-        android:shadowRadius="5"
+        android:shadowRadius="2"
         android:shadowDx="3"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
