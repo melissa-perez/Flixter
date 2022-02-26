@@ -26,6 +26,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 No challenges encountered following the video tutorials for required stories.
+Issues with stretch goals:
+- placeholder image would change size of view
+- orientation mode was difficult until TA showed video and I was able to convert the Java code
+- forgetting to set rotate on in phone settings
 
 ### Open-source libraries used
 
