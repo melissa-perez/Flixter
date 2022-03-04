@@ -1,15 +1,22 @@
 package com.melissa.flixter
 
+import android.os.Parcelable
+import kotlinx.parcelize.IgnoredOnParcel
+import kotlinx.parcelize.Parcelize
 import org.json.JSONArray
 
+@Parcelize
 data class Movie(
     val movieId: Int,
     val title: String,
     val overview: String,
     private val posterPath: String,
-    val backdropPath: String
-) {
+    val backdropPath: String,
+    val voteAverage: Double
+) : Parcelable {
+    @IgnoredOnParcel
     val posterImageUrl = "https://image.tmdb.org/t/p/w342/$posterPath"
+    @IgnoredOnParcel
     val backdropImageUrl = "https://image.tmdb.org/t/p/w342/$backdropPath"
 
     companion object{
@@ -23,7 +30,8 @@ data class Movie(
                         movieJson.getString("title"),
                         movieJson.getString("overview"),
                         movieJson.getString("poster_path"),
-                        movieJson.getString("backdrop_path")
+                        movieJson.getString("backdrop_path"),
+                        movieJson.getDouble("vote_average")
                     )
                 )
             }
