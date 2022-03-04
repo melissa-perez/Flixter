@@ -8,7 +8,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 #### REQUIRED (10pts)
 
 - [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [ ] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+- [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 #### BONUS
 
@@ -29,6 +29,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### Notes
 
 Describe any challenges encountered while building the app.
+
+- Getting Youtube to work was a nightmare. Required finding a specific emulator version, YT library jar, hotfixes, and copius amounts of debugging statements.
+- Also required a working YT app on emulator and a Google account to update the YT app.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
